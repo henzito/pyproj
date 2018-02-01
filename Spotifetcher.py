@@ -59,19 +59,3 @@ while g != "Spotify":
     g = spotilib.song_info()
 print('Não tem nada tocando. Vou dormir...')
 browser.quit()
-
-        
-
-
-# In[13]:
-
-
-print(urls)
-
-
-# In[92]:
-
-
-g = spotilib.song_info()
-print(g)
-
